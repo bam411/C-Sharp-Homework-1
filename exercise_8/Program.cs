@@ -6,9 +6,10 @@
 Console.Write("Введите число:");
 int numA = Convert.ToInt32(Console.ReadLine());
 int numB = 1;
+Console.Write(numA + " -> ");
 
 while(numB < numA)
 {
-    Console.WriteLine(numB + 1);
+    Console.Write((numB + 1) + ", ");
     numB = numB + 2;
 }
